@@ -7,7 +7,6 @@
 
   <!-- By default, we are not in debug mode -->
   <arg name="debug" default="false" />
-
   <arg name="planner" default="ompl" />
 
   <!--
@@ -45,9 +44,7 @@
     <arg name="fake_execution" value="true"/>
     <arg name="info" value="true"/>
     <arg name="debug" value="$(arg debug)"/>
-
     <arg name="planner" value="$(arg planner)"  />
-
   </include>
 
   <!-- Run Rviz -->
